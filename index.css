@@ -2,6 +2,7 @@ body{
     margin: auto;
     padding: auto;
     background-image: url(pic/1.jpg);
+    background-repeat:no-repeat;
     filter: contrast(5px);
     filter:drop-shadow(50px);
     background-position: center;
