@@ -96,3 +96,32 @@ button:hover{
 .fa-instagram:hover{
     color: white;
 }
+@media screen and (max-width: 768px) {
+    body{
+        background-attachment: fixed;
+    }
+    img {
+        width: 45%; /* Adjusted width for mobile */
+        margin: 10% auto;
+    }
+    
+    .menu {
+        width: 90%; /* Adjusted width for mobile */
+        margin: 0px auto; /* Adjusted margin for mobile */
+    }
+    
+    button {
+        margin: 0px auto; /* Adjusted margin for mobile */
+    }
+    
+    #info {
+        margin-top: -10%; /* Adjusted margin for mobile */
+    }
+    
+    .fa-facebook,
+    .fa-github,
+    .fa-linkedin,
+    .fa-instagram {
+        margin-top: 0; /* Adjusted margin for mobile */
+    }
+}
