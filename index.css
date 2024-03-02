@@ -101,6 +101,7 @@ button:hover{
         background-attachment: fixed;
         width: max-content;
         background-size: cover;
+        background-repeat: no-repeat;
     }
     img {
         width: 45%; /* Adjusted width for mobile */
