@@ -99,6 +99,7 @@ button:hover{
 @media screen and (max-width: 768px) {
     body{
         background-attachment: fixed;
+        background-size: cover;
     }
     img {
         width: 45%; /* Adjusted width for mobile */
@@ -108,6 +109,7 @@ button:hover{
     .menu {
         width: 90%; /* Adjusted width for mobile */
         margin: 0px auto; /* Adjusted margin for mobile */
+        margin-left: 45px;
     }
     
     button {
