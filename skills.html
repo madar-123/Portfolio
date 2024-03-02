@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="icon" href="pic/icons/sk (2).jpg">
+</head>
+<style>
+        body{
+    margin: auto;
+    padding: auto;
+    background-image: url(pic/1.jpg);
+    filter: contrast(5px);
+    filter:drop-shadow(50px);
+    background-position: center;
+    background-size: 150%;
+    
+}
+button{
+    color: whitesmoke;
+    background-color: tan;
+    padding: 5px 20px;
+    background-image: url(pic/1.jpg);
+    border-color: whitesmoke;
+    margin: 15px;
+    border-radius: 20px 0px;
+}
+#btn{
+    margin-left: 45%;
+    margin-bottom: 10px;
+}
+button:hover{
+    border-color:  blue;
+    cursor: pointer;
+}
+#bar{
+    color: yellow;
+    padding-left: 50%;   
+}
+.lang h1{
+    color: aliceblue;
+    text-align: center;
+}
+#fronted img{
+    display: inline;
+    width: 8%;
+}
+#fronted{
+    text-align: center;
+}
+#backend img{
+    display: inline;
+    width: 8%;
+}
+#backend{
+    text-align: center;
+}
+#git img{
+    width: 20%;
+    margin-top: -50px;
+}
+@media (max-width: 480px) {
+    body{
+
+        background-size: cover;
+        width: max-content;
+    }
+    #btn{
+        margin: auto;
+    }
+}
+</style>
+<body>
+    <ol id="bh">
+        <a href="index.html"><button id="btn">Home</button></a>
+       <a href="About.html"><button>About</button></a>
+       <a href="contact.html"><button>Contact</button></a>
+        <a href="skills.html"><button>Skills</button></a>
+        <a href="my project.html"><button>My projects</button></a>
+        <a href="certificate.html"><button>Certificates</button></a>
+    </ol>
+    <hr style="background-image:url(pic/bg\ \(5\).jpg); height: 10px; border-radius: 10px; filter: blur(5px);">
+    <div class="lang">
+        <span><h1>Front-End Language</h1>
+        <div id="fronted">
+            <img src="pic/languages/html.png">
+            <img src="pic/languages/css.png">
+            <img src="pic/languages/js.png">
+            <img src="pic/languages/react.png">
+            <img src="pic/languages/bootstrap.png">
+        </div></span>
+        <span><div id="backend">
+            <h1>Back-End Language</h1>
+            <div id="back">
+                <img src="pic/languages/java.png">
+                <img src="pic/languages/python.png">
+                <img src="pic/languages/dbms.png">
+                <img src="pic/languages/c.png">
+            </div></span>
+        <div id="git">
+            <h1>Source Language</h1>
+            <img src="pic/languages/git.png">
+        </div>
+        </div>
+    </div>
+</body>
+</html>
