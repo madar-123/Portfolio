@@ -109,8 +109,7 @@ button:hover{
     .menu {
         width: 90%; /* Adjusted width for mobile */
         margin: 0px auto; /* Adjusted margin for mobile */
-        margin-top: 45px;
-        margin-left:43px;
+        
     }
     
     button {
@@ -118,7 +117,9 @@ button:hover{
     }
     
     #info {
-        margin-top: -10%; /* Adjusted margin for mobile */
+        margin-top: 10%; /* Adjusted margin for mobile */
+        margin-left:43px;
+        margin-top: 45px;
     }
     
     .fa-facebook,
